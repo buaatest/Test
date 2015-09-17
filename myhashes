@@ -1,0 +1,11 @@
+while read LINE 
+do
+   mkpasswd --method=md5 $LINE
+done<<EOF > myhashes
+cALIFORNIA
+esrever
+kroc
+h3llo
+d0g
+j0hn
+EOF
